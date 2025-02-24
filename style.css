@@ -1,4 +1,4 @@
-h1{
+.t1{
     color: blue;
     background-color: beige;
     text-decoration: underline;
@@ -12,9 +12,26 @@ h1{
     border-width: 1px;
     border-style: dashed;
     border-color: brown;
-    background-image: url(./images/1.png);
+    /* background-image: url(./images/1.png); */
+    /* padding: 10px; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    /* margin: 30px; */
+    /* margin-top: 30px; */
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+    /* margin-left: 30px; */
+    /* margin-right: 30px; */
+    
 
     
+
+    
+}
+#textt{
+    color: aqua;
 }
 p{
     color: blueviolet;
@@ -31,6 +48,15 @@ p{
     text-align: center;
     border-radius: 20px;
     /* border-radius: 60%; */
+    /* padding: 30px; */
+    padding-bottom: 30px;
+    /* padding-left: 10px; */ 
+    /* padding-right: 10px; */
+    /* padding-top: 30px; */
+
+    
+
+
 
 
 
