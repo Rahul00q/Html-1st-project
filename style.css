@@ -1,4 +1,4 @@
-.t1{
+/* .t1{
     color: blue;
     background-color: beige;
     text-decoration: underline;
@@ -29,7 +29,7 @@
     
 
     
-}
+/* }
 #textt{
     color: aqua;
 }
@@ -46,18 +46,55 @@ p{
     width: 600px;
     height: 600px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 20px; */ 
     /* border-radius: 60%; */
     /* padding: 30px; */
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     /* padding-left: 10px; */ 
     /* padding-right: 10px; */
     /* padding-top: 30px; */
-
-    
-
-
-
-
+    /* body{
+        background-image: url(./images/3.png);
+    }
+#container{
+    background-image: url(./images/1.png);
+    background-color: red;
+    height: 100px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
 
 }
+.link{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+} */
+
+#headpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headpart img{
+    width: 50px;
+    height: 50px ;
+    border-radius: 50%;
+}
+
+#headpart nav ul{
+    display: flex;
+
+}
+#headpart nav ul li{
+    color: brown;
+    font-style: italic;
+    list-style: none;
+    gap: 20px;
+}
+#headpart nav ul li button{
+    color: brown;
+}
+
