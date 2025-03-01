@@ -72,10 +72,12 @@ p{
     gap: 20px;
     list-style: none;
 } */
-
+/*   
 #headpart{
+    background-image: url(/images/2.png);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+     justify-content: space-around;
     align-items: center;
 }
 #headpart img{
@@ -84,17 +86,36 @@ p{
     border-radius: 50%;
 }
 
-#headpart nav ul{
+#headpart nav ul {
     display: flex;
+    gap: 35px;
+    background-color: gray;
+    list-style: none;
+    text-decoration: none;
+    gap: 35px;
 
 }
-#headpart nav ul li{
-    color: brown;
+#headpart nav ul li a{
+   
+    display: flex;
+    text-decoration: none;
+    color: chocolate;
     font-style: italic;
-    list-style: none;
-    gap: 20px;
+    
+    
+}  */
+
+#headpart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-#headpart nav ul li button{
-    color: brown;
+#headpart img {
+    width: 150px;
+}
+#headpart nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
 }
 
