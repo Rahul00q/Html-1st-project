@@ -104,11 +104,18 @@ p{
     
     
 }  */
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 #headpart{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: 50px;
+    
 }
 #headpart img {
     width: 150px;
